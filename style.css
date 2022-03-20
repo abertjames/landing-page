@@ -4,7 +4,7 @@
     display: flex;
 }
 
-.top {
+.section-one {
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 10px;
@@ -104,3 +104,30 @@ img {
   }
 
 /************************ third part ***********************/
+
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #e5e7eb;
+    font-family: 'Roboto';
+}
+
+.quote {
+    color: #1F2937;
+    font-style: italic ;
+    font-size: 36px;
+    padding-bottom: 15px;
+}
+
+.quoter {
+    display: flex;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
+
