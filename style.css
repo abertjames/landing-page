@@ -1,5 +1,10 @@
 /************************ part 1 ***********************/
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .body {
     display: flex;
 }
@@ -160,8 +165,20 @@ img {
 
 button.sign-up {
     border: 1px solid white;
-
+    display: flex;
+    align-self: center;
 }
 
 /************************ part 5 ***********************/
+
+.section-5 {
+    background-color: #1F2937;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
 
