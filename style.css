@@ -1,3 +1,5 @@
+/************************ first part ***********************/
+
 .body {
     display: flex;
 }
@@ -47,7 +49,7 @@ ul {
 
 a, .filler {
     text-decoration: none;
-    color: #e5e7eb;
+    color: #E5E7EB;
     font-size: 18px;
 }
 
@@ -70,3 +72,35 @@ img {
     display: flex;
     max-width: 50%;
 }
+
+/************************ second part ***********************/
+
+  .section-two {
+      padding: 75px;
+  }
+
+  .title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 32px;
+    font-family: 'Roboto';
+    text-align: center;
+    padding-bottom: 30px;
+
+  }
+  
+  .info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    font-family: 'Roboto';
+    color: #e5e7eb;
+    font-size: 24px;
+  }
+  
+  .info {
+    max-width: 200px;
+  }
+
+/************************ third part ***********************/
